@@ -1,10 +1,9 @@
 package com.example.multilanguageapp
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
-import com.example.multilanguageapp.databinding.ActivityMainBinding
 import com.example.multilanguageapp.databinding.ActivitySecondBinding
 
 class SecondActivity : AppCompatActivity() {

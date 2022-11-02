@@ -2,13 +2,13 @@ package com.example.multilanguageapp.fragments
 
 import android.os.Bundle
 import android.util.Log
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AlertDialog
+import androidx.fragment.app.Fragment
 import com.example.multilanguageapp.R
-import com.example.multilanguageapp.databinding.Fragment1Binding
+import com.example.multilanguageapp.TAG
 import com.example.multilanguageapp.databinding.Fragment3Binding
 import io.paperdb.Paper
 
@@ -52,7 +52,7 @@ class Fragment3 : Fragment() {
                 binding.tvLanguageInfo.text = languages[selection]
                 Paper.book().write("LANG_INDEX", selection)
 
-                Log.d("erenlanguage", "SettingsFragment: AlertDialog languageCode : ${languageCodes[selection]} --- language : ${languages[selection]}")
+                Log.d(TAG, "Fragment3: AlertDialog languageCode : ${languageCodes[selection]} --- language : ${languages[selection]}")
 
                 requireActivity().recreate()
                 dialog.dismiss()
