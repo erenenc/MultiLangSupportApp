@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MultiLanguageApp</string>
+    <string name="calendar">Calendario</string>
+    <string name="mine">Mío</string>
+    <string name="tasks">Tareas</string>
+    <string name="settings">Configuración</string>
+    <string name="fragment_1_text">Fragment 1 Spanish</string>
+    <string name="fragment_2_text">Fragment 2 Spanish</string>
+    <string name="fragment_3_text">Fragment 3 Spanish</string>
+    <string name="fragment_4_text">Fragment 4 Spanish</string>
+    <string name="activity_second_text">Activity Second Spanish</string>
+    <string name="system">System Spanish</string>
+
+</resources>

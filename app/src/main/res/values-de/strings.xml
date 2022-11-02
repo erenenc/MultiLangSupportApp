@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MultiLanguageApp</string>
+    <string name="calendar">Kalender</string>
+    <string name="mine">Mine</string>
+    <string name="tasks">Aufgaben</string>
+    <string name="settings">Einstellungen</string>
+    <string name="fragment_1_text">Fragment 1 German</string>
+    <string name="fragment_2_text">Fragment 2 German</string>
+    <string name="fragment_3_text">Fragment 3 German</string>
+    <string name="fragment_4_text">Fragment 4 German</string>
+    <string name="activity_second_text">Activity Second German</string>
+    <string name="system">System German</string>
+
+</resources>
